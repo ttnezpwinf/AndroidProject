@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/lblMessage"
+              android:textSize="30sp"
+              android:textColor="#ff0000" />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMath"
+            android:textSize="20sp"
+            android:text="產生6個亂數:1~42" />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMulMath"
+            android:textSize="20sp"
+            android:text="Builder-產生10組6個亂數:1~42" />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnList"
+            android:textSize="20sp"
+            android:text="listAdapter-產生10組6個亂數:1~42" />
+
+</LinearLayout>
